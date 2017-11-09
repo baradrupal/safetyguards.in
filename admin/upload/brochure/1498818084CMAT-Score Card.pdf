@@ -1,0 +1,367 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><title>
+	AICTE
+</title><link href="../App_Themes/New/aicte-reg-new.css" rel="stylesheet" type="text/css" /><link rel="shortcut icon" type="App_Themes/New/x-icon" href="../Images/favicon.ico" />
+
+    <script type="text/javascript" src="../Script_Library/typeface-0.15.js"></script>
+
+    <script type="text/javascript" src="../Script_Library/heaveneticacond6_medsh.typeface.js"></script>
+
+    <script type="text/javascript" src="../Script_Library/script.js"></script>
+
+    <script type="text/javascript" src="../Script_Library/jscript.js"></script>
+
+    <script type="text/javascript" src="../Script_Library/expandcollapse.js"></script>
+
+    <script type="text/javascript" src="../Script_Library/planner-accordian.js"></script>
+
+    <script language="javascript" type="text/javascript">
+        function setStyle(x) {
+            document.getElementById(x).style.background = "#eeeeee"
+        }
+
+        function isNumberKey(evt) {
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (charCode != 46 && charCode > 31 && (charCode < 48 || charCode > 57)) {
+                alert("Enter a valid number");
+                return false;
+            }
+
+            return true;
+        } 
+
+    </script>
+    <style type="text/css">
+        .Headerrow
+        {
+            padding-left: 3px;
+            font-family: Tahoma;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        .TopHeader
+        {
+            padding-left: 1px;
+            font-family: Tahoma;
+            font-size: 19px;
+            font-weight: bold;
+            letter-spacing: 1pt;
+            line-height: 20px;
+        }
+        .Lefttd
+        {
+            padding-left: 3px;
+            font-family: Tahoma;
+            font-size: 15px;
+            font-weight: bold;
+            height: 30px;
+            padding: 5px;
+        }
+            
+        .style8
+        {
+            height: 30px;
+            width: 16%;
+            padding: 5px;
+        }
+        .style9
+        {
+            height: 30px;
+            padding: 5px;
+        }
+        .style10
+        {
+            padding-left: 3px;
+            font-family: Tahoma;
+            font-size: 16px;
+            font-weight: bold;
+            height: 25px;
+        }
+        .style5
+        {
+            height: 24px;
+        }
+        .Instruction
+        {
+            padding-left: 1px;
+            font-family: Tahoma;
+            font-size: 13px;
+            font-weight: bold;
+            letter-spacing: 1pt;
+            line-height: 20px;
+        }
+        
+        .style11
+        {
+            height: 10px;
+        }
+        
+        
+        
+        .style6
+        {
+            padding-left: 1px;
+            font-family: Tahoma;
+            font-size: 11px;
+            font-weight: bold;
+            letter-spacing: 1pt;
+            line-height: 20px;
+            height: 10px;
+        }
+        
+        
+        
+        .style2
+        {
+            height: 20px;
+        }
+    </style>
+</head>
+<body style="margin: 0 0 0 0;">
+    <form method="post" action="AicteGetResultCardSept2014CMATCellsCreate_New.aspx?CID=6124310894" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE3MjkwOTI0MjdkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYCBQtJbWdCdG5QcmludAUKSW1nQnRuU2F2ZQ6XgoxIN/P4lUAM88sVyP2hXQ+ez+DioMD14curp+Hy" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=CiR9vkosjzf_LzIOdHQhdg2&amp;t=635077975695424841" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=Z_dzXlljOf3xOFsqL8AMam9519MGW6p7fNvn0V_opXqPudHGNlNGS3w6s6KHlVOQLRWvIgOp0g_fygTFeGCu986P-FQqG8cXMXexeInzyL01&amp;t=16ab2387" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=Z_dzXlljOf3xOFsqL8AMam9519MGW6p7fNvn0V_opXqPudHGNlNGS3w6s6KHlVOQeX4HlzU0g76P0VPcboyENr0UN-geTNqYbvp6kV8NA8QBBNs7bYVxUKjDDzyd-c3A0&amp;t=16ab2387" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBQL54Lm8AgKC+tPWBQLr5MqdAgL0lpyGBQKEwOLNBMN6FoG2ZfVbMZ41w5g3s9VquN1JCBMjX6aujY8aH4tn" />
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('scrptMgr', 'form1', [], [], [], 90, '');
+//]]>
+</script>
+
+    <div class="main"> 
+        <div class="sub-main">
+            
+<link href="../App_Themes/New/aicte-reg-new-R.css" rel="stylesheet" type="text/css" />
+
+		<div class="wrap">
+			<div class="headbg">
+				<div class="logo"><a href="#" title="" target="_self"></a></div>
+				
+            </div>
+		</div>
+		<div class="mainmenu">
+        	<ul>
+            	<li><a href="../College/Index_New.aspx" name="Home" target=""><strong>Home</strong></a></li>
+                <li>&nbsp;|&nbsp;</li>
+                <li><a href="../College/About-Us.aspx" name="About Us" target=""><strong>About Us</strong></a></li>
+                <li>&nbsp;|&nbsp;</li>
+                <li><a href="../College/faq.aspx" name="FAQ" target=""><strong>FAQ</strong></a></li>
+                <li>&nbsp;|&nbsp;</li>
+                <li><a href="../College/contact-us.aspx" name="Help Line" target=""><strong>Help Line</strong></a></li>
+                 <li>&nbsp;|&nbsp;</li>
+                <li><a href="../Candidate/LogOut.aspx" name="Help Line" target=""><strong>Log Out</strong></a></li>
+            </ul>
+        </div>
+        
+        <div class="graphic"></div>
+	<div class="marq-bar">
+			
+		</div>
+            <br />
+            <div class="container">
+                <div class="steps-panel">
+                    <div id="UserSteps_divSteps">
+</div>
+<input type="hidden" name="UserSteps$HiddenStatus" id="UserSteps_HiddenStatus" />
+
+                </div>
+                <div class="inside-title typeface-js">
+                    Score Card</div>
+                <div class="register-div">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td align="left" style="width: 5%">
+                                <div>
+                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                        <tr>
+                                            <td>
+                                                <a name="TOP"></a>
+                                                <div id="vsmErr" class="comment-error1" style="display:none;">
+
+</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div id="dvCnfrm" class="comment-confirm-page" style="display: none;
+                                                    width: 650px;">
+                                                    <span id="lblCnfrm"></span>
+                                                </div>
+                                                <div class="clear">
+                                                    <div style="width: 30px">
+                                                        &nbsp;</div>
+                                                </div>
+                                                <div id="dvMsg" class="comment-confirm-alert" style="display: none;
+                                                    width: 650px; height: 20px;">
+                                                    <span id="lblMsg"></span>
+                                                </div>
+                                                <div class="clear">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right" style="font-weight: normal; font-size: 9px; color: red; font-family: Verdana">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="left" style="width: 5%">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="left" class="msg-green_head">
+                                <br />
+                                Click on "Score Card" button below to generate your Score Card.<br />
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td align="left">
+                                <input name="textBoxURL" type="text" id="textBoxURL" style="color:White;background-color:WhiteSmoke;border-color:White;border-style:None;" />
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" align="left">
+                                &nbsp;
+                                <br />
+                                &nbsp;<input type="image" name="ImgBtnPrint" id="ImgBtnPrint" src="../App_Themes/Images/ScoreCard.jpg" style="height:35px;width:111px;" />
+                                &nbsp;<input type="image" name="ImgBtnSave" id="ImgBtnSave" src="../App_Themes/Images/Exit.jpg" style="height:35px;width:62px;" />
+                                <br />
+                                <br />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <br />
+                <br />
+                
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+    
+    <tr>
+        <td>
+            <div class="footer_new">
+                <img src="../App_Themes/Images/bg-footer1.jpg" alt="" width="100%" />
+            </div>
+        </td>
+    </tr>
+</table>
+
+            </div>
+        </div>
+    </div>
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("vsmErr"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var vsmErr = document.all ? document.all["vsmErr"] : document.getElementById("vsmErr");
+vsmErr.validationGroup = "CandidateLogin";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+document.getElementById('vsmErr').dispose = function() {
+    Array.remove(Page_ValidationSummaries, document.getElementById('vsmErr'));
+}
+//]]>
+</script>
+</form>
+    <script language="javascript" type="text/javascript">
+
+        function FrmSubmitMe() {
+            var DropDownListCity1 = '';
+            var DropDownListCity2 = '';
+            var DropDownListCity3 = '';
+            var strMessage = '';
+
+
+            DropDownListCity1 = document.getElementById('DropDownListCity1');
+            DropDownListCity2 = document.getElementById('DropDownListCity2');
+            DropDownListCity3 = document.getElementById('DropDownListCity3');
+
+
+
+            if (DropDownListCity1.value == DropDownListCity2.value) {
+                alert("Please diffrent preffered city.");
+                return false;
+            }
+            else if (DropDownListCity1.value == DropDownListCity3.value) {
+                alert("Please diffrent preffered city.");
+                return false;
+            }
+            else if (DropDownListCity2.value == DropDownListCity3.value) {
+                alert("Please diffrent preffered city.");
+                return false;
+            }
+            else if (DropDownListCity3.value == DropDownListCity1.value) {
+                alert("Please diffrent preffered city.");
+                return false;
+            }
+            else {
+                return true;
+            }
+
+        }
+    </script>
+</body>
+</html>

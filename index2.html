@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>Lexcru</title>
+                <link rel="icon" href="images/favcon.png" type="image/png" sizes="20x20">
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="fonts/lineo-icon/style.css" rel="stylesheet" type="text/css">
+
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+                <!-- Latest compiled JavaScript -->
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                
+                
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
+	</head>
+
+
+	<body>
+		
+		<div id="site-content">
+			<header class="site-header">
+				<div class="top-header">
+					<div class="container">
+						<a href="index.html" id="branding">
+                                                    <img src="images/main-lexcru-logo.jpg" alt="Company Name" class="logo" style="max-width: 70%;">
+							<div class="logo-text">
+<!--								<h1 class="site-title">Company Name</h1>-->
+<!--								<small class="description">Taline goes here</small>-->
+							</div>
+						</a> <!-- #branding -->
+					
+						<div class="right-section pull-right">
+							<a href="#" class="phone"><img src="images/icon-phone.png" class="icon"> (+91) 97279 76500</a>
+					
+							<form action="#" class="search-form">
+								<input type="text" placeholder="Search...">
+								<button type="submit"><img src="images/icon-search.png" alt=""></button>
+							</form>
+						</div>
+					</div> <!-- .container -->
+				</div> <!-- .top-header -->
+
+				
+				<div class="bottom-header">
+					<div class="container">
+						<div class="main-navigation">
+							<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+							<ul class="menu">
+								<li class="menu-item"><a href="#">Home</a></li>
+								<li class="menu-item"><a href="#">About Us</a></li>
+                                                                <li class="dropdown">
+                                                                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Our Brands <span class="caret"></span></a>
+                                                                    <ul class="dropdown-menu nav" style="top: 25px;">
+                                                                        <li class="menu-item" role="presentation"><a href="#" style="font-weight: 300;color: rgb(15,117,189);font-family: 'Roboto Condensed', 'Open Sans', sans-serif;">Cruze RO System</a></li>
+                                                                        <li class="menu-item" role="presentation"><a href="#" style="font-weight: 300;color: rgb(15,117,189);font-family: 'Roboto Condensed', 'Open Sans', sans-serif;">Lexpure</a></li>
+                                                                        <li class="menu-item" role="presentation"><a href="#" style="font-weight: 300;color: rgb(15,117,189);font-family: 'Roboto Condensed', 'Open Sans', sans-serif;">LCM Industrial</a></li>
+                                                                    </ul>
+                                                                </li>   
+                                                                <li class="menu-item"><a href="#">News & Events</a></li>
+                                                                <li class="menu-item"><a href="#">Awards</a></li>
+                                                                <li class="menu-item"><a href="#">Certificates</a></li>
+                                                                <li class="menu-item"><a href="#">Contact Us</a></li>
+							</ul> <!-- .menu -->
+						</div> <!-- .main-navigation -->
+						
+						<div class="social-links">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+							<a href="#"><i class="fa fa-pinterest"></i></a>
+						</div>
+						
+						<div class="mobile-navigation"></div>
+					</div>
+				</div>
+				
+			</header> <!-- .site-header -->
+
+                        
+                        
+  <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#bs-carousel" data-slide-to="1"></li>
+<!--    <li data-target="#bs-carousel" data-slide-to="2"></li>-->
+  </ol>
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slides active">
+        <img src="images/01.jpg" class="img-responsive">
+<!--      <div class="hero">
+        <hgroup>
+            <h1>We are creative</h1>        
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">See all features</button>
+      </div>-->
+    </div>
+   
+    <div class="item slides">
+      <div class="slide-3"><img src="images/02.jpg" class="img-responsive"></div>
+<!--      <div class="hero">        
+        <hgroup>
+            <h1>We are amazing</h1>        
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">See all features</button>
+      </div>-->
+    </div>
+  </div> 
+</div>
+                        
+<style>
+ 
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #fdfdfd !important;
+    border-color: #fff !important;
+    opacity: .7;
+}    
+    
+    /*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
+*/
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+    position: relative;
+    
+}
+.fade-carousel .carousel-inner .item {
+    
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #f39c12;
+    border-color: #f39c12;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+    font-size: 6em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+/*.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .7;
+}*/
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    outline: none;
+    margin: 20px auto;
+}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }    
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 4em; }    
+}
+                        </style>
+                        
+                        
+                        
+                        
+			 <!-- .hero-slider -->
+
+			<main class="main-content">
+				<div class="fullwidth-block greet-section">
+					<div class="container">
+						<h2 class="section-title">Welcome to our website</h2>
+<!--						<small class="section-subtitle">About Us</small>-->
+                                                <p style="text-align: justify;">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor incididunt labore dolore magna aliqua.
+                                                Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor incididunt labore dolore magna aliqua.
+                                                Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor incididunt labore dolore magna aliqua.
+                                                Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor incididunt labore dolore magna aliqua.
+                                                Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor incididunt labore dolore magna aliqua.
+                                                Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor incididunt labore dolore magna aliqua.
+                                                Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor incididunt labore dolore magna aliqua.
+                                                Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor incididunt labore dolore magna aliqua.
+                                                Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor incididunt labore dolore magna aliqua.
+                                                Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor incididunt labore dolore magna aliqua.</p>
+                                                <div class="row" style="margin-top: 5%;">
+							<div class="col-md-3">
+								<div class="feature">
+                                                                    <center><img src="images/Awards 01.jpg" class="img-responsive" style="max-width: 30%;"></center>
+                                                                    <h3 class="feature-title">Awards</h3>
+                                                                    <p>Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor incididunt labore dolore magna aliqua.</p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="feature">
+                                                                    <center><img src="images/CERTIFICATES 01.jpg" class="img-responsive" style="max-width: 30%;"></center>
+									<h3 class="feature-title">CERTIFICATES</h3>
+									<p>Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor incididunt labore dolore magna aliqua.</p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="feature">
+                                                                    <center><img src="images/ASSOCIATES-MEMBERS 01.jpg" class="img-responsive" style="max-width: 30%;"></center>
+									<h3 class="feature-title">ASSOCIATES-MEMBERS</h3>
+									<p>Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor incididunt labore dolore magna aliqua.</p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="feature">
+                                                                    <center><img src="images/VIDEOS 01.jpg" class="img-responsive" style="max-width: 30%;"></center>
+									<h3 class="feature-title">VIDEOS</h3>
+									<p>Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor incididunt labore dolore magna aliqua.</p>
+								</div>
+							</div>
+						</div> <!-- .row -->
+
+<!--						<div class="text-center">
+							<p>Sollicitudin sit tortor pellentesque. <a href="#">Read more</a></p>
+						</div>-->
+					</div> <!-- .container -->
+				</div> <!-- .fullwidth-block -->
+
+                                
+                                
+<div class="fullwidth-block">
+					<div class="container">
+						<h2 class="section-title">Our Brands</h2>
+						<div class="row news-list">
+							<div class="col-md-4">
+								<div class="news">
+                                                                    <figure><img src="images/b1.jpg" alt=""></figure>
+                                                                    <h2 class="entry-title" style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque libero, pulvinar tincidunt leo consectetur eget.</h2>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="news">
+                                                                    <figure><img src="images/b2.jpg" alt=""></figure>
+                                                                    <h2 class="entry-title" style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat libero, pulvinar tincidunt leo consectetur eget.</h2>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="news">
+                                                                    <figure><img src="images/b3.jpg" alt=""></figure>
+									<h2 class="entry-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat libero, pulvinar tincidunt leo consectetur eget.</h2>
+								</div>
+							</div>
+						</div> <!-- .row -->
+					</div> <!-- .container -->
+				</div> <!-- .latest-news-section -->                                
+                                
+
+                                
+				<div class="fullwidth-block" data-bg-color="#f1f1f1">
+					<div class="container">
+						<h2 class="section-title">Our Latest Product</h2>
+<!--						<small class="section-subtitle">Phasellus vel felis in nulla mollis posuere eget rutrum eros</small>-->
+
+						<div class="row">
+							<div class="col-md-3">
+								<div class="offer caption-top">
+                                                                    <img src="images/1.jpg" alt="offer 1">
+<!--									<div class="caption">
+										<h3 class="offer-title">Massa augue</h3>
+										<small>Conubia nostra per inceptos</small>
+									</div>-->
+								</div>
+							</div>
+							<div class="col-md-9">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="offer caption-bottom">
+                                                                                    <img src="images/2.jpg" alt="offer 2">
+<!--											<div class="caption">
+												<h3 class="offer-title">Curabitur vehicula</h3>
+												<small>Conubia nostra per inceptos</small>	
+											</div>-->
+										</div>
+									</div>
+									<div class="col-md-8">
+										<div class="offer caption-bottom">
+                                                                                    <img src="images/3.jpg" alt="offer 3">
+<!--									<div class="caption">
+										<h3 class="offer-title">Vivamus rhoncus porttitor</h3>
+										<small>Conubia nostra per inceptos</small>
+									</div>-->
+								</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="offer caption-bottom">
+                                                                                    <img src="images/4.jpg" alt="offer 2">
+<!--											<div class="caption">
+												<h3 class="offer-title">Curabitur vehicula</h3>
+												<small>Conubia nostra per inceptos</small>	
+											</div>-->
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="offer caption-bottom">
+                                                                                    <img src="images/5.jpg" alt="offer 2">
+<!--											<div class="caption">
+												<h3 class="offer-title">Curabitur vehicula</h3>
+												<small>Conubia nostra per inceptos</small>	
+											</div>-->
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="offer caption-bottom">
+                                                                                    <img src="images/6.jpg" alt="offer 2">
+<!--											<div class="caption">
+												<h3 class="offer-title">Curabitur vehicula</h3>
+												<small>Conubia nostra per inceptos</small>	
+											</div>-->
+										</div>
+									</div>
+								</div> <!-- .row -->
+							</div> <!-- .col-md-8 -->
+						</div> <!-- .row -->
+
+					</div> <!-- .container -->
+				</div> <!-- .offer-section -->
+
+<!--				<div class="fullwidth-block">
+					<div class="container">
+						<h2 class="section-title">Latest news</h2>
+						<div class="row news-list">
+							<div class="col-md-4">
+								<div class="news">
+									<figure><img src="dummy/featured-image-1.jpg" alt=""></figure>
+									<div class="date"><img src="images/icon-calendar.png" alt="">03/09/2014</div>
+									<h2 class="entry-title"><a href="#">Donec laoreet non nec aliquam pellentesque interdum</a></h2>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="news">
+									<figure><img src="dummy/featured-image-2.jpg" alt=""></figure>
+									<div class="date"><img src="images/icon-calendar.png" alt="">03/09/2014</div>
+									<h2 class="entry-title"><a href="#">Donec laoreet non nec aliquam pellentesque interdum</a></h2>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="news">
+									<figure><img src="dummy/featured-image-3.jpg" alt=""></figure>
+									<div class="date"><img src="images/icon-calendar.png" alt="">03/09/2014</div>
+									<h2 class="entry-title"><a href="#">Donec laoreet non nec aliquam pellentesque interdum</a></h2>
+								</div>
+							</div>
+						</div>  .row 
+					</div>  .container 
+				</div>  .latest-news-section -->
+<h2 class="section-title">What Our client say</h2>
+				<div class="fullwidth-block" data-bg-color="#0f75bd">
+					<div class="container">
+						<div class="testimonial-slider">
+							<ul class="slides">
+								<li>
+									<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam quod explicabo optio quia ex odit, sequi harum voluptatibus autem. Nam autem corporis deleniti fugiat omnis itaque, quis laudantium dolor facere.<cite>John Smith</cite></blockquote>
+								</li>
+								<li>
+									<blockquote>At doloremque, itaque molestias neque nesciunt placeat aspernatur veniam fugit enim, dolor, repudiandae a. Laborum optio dolorum qui maxime doloribus eligendi in enim minima quo? Quis tenetur eos, libero exercitationem.<cite>John Smith</cite></blockquote>
+								</li>
+								<li>
+									<blockquote>Ipsam nesciunt velit voluptatem? Voluptas amet, porro eaque asperiores magni rerum vitae nulla inventore, numquam facilis doloribus placeat iure suscipit adipisci dolores modi saepe deserunt nisi. Nam, illum aperiam velit.<cite>John Smith</cite></blockquote>
+								</li>
+							</ul>
+						</div>
+					</div> <!-- .container -->
+				</div> <!-- .fullwidth-block -->
+
+				<div class="fullwidth-block">
+					<div class="container">
+						<h2 class="section-title">Our Premium Clients</h2>
+
+						<div class="partners">
+							<a href="#"><img src="dummy/money-logo.png" alt=""></a>
+							<a href="#"><img src="dummy/nyt-logo.png" alt=""></a>
+							<a href="#"><img src="dummy/forbes-logo.png" alt=""></a>
+							<a href="#"><img src="dummy/wsj-logo.png" alt=""></a>
+							<a href="#"><img src="dummy/bbs-logo.png" alt=""></a>
+						</div> <!-- .partners -->
+					</div> <!-- .container -->
+				</div> <!-- .fullwidth-block -->
+
+				<div class="fullwidth-block">
+					<div class="map"><div class="row">
+                                 <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29375.853085059134!2d72.51719578695098!3d23.024446492239758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84cfc5e28b97%3A0x46778bc90aeeb443!2sLEXCRU+WATER+TECH+PRIVATE+LIMITED!5e0!3m2!1sen!2sin!4v1495719657001"  frameborder="0" style="border:0;width: 100%;" height="400" allowfullscreen></iframe>
+                             </div></div>
+				</div>
+			</main>
+
+                <div class="site-footer">
+				<div class="widget-area">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-4 col-md-3">
+								<div class="widget">
+									<h2 class="widget-title">Contact</h2>
+									<address> 
+                                                                            Lexcru water Tech PVT.LTD  B-17 Gujarat Estate,  
+                                                                            Opp Hotel Orange inn,Sanand - Sarkhej Road,  Ahmedabad - 380015
+                                                                            
+									</address>
+                                                                        <p style="color:#fff;">Phone : <a href="#">(+91) 97279 76500</a></p>
+                                                                        <p style="color:#fff;">E-mail : <a href="mailto:sales@lexcru.com">sales@lexcru.com</a></p>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-3">
+								<div class="widget">
+									<h2 class="widget-title">Quick links</h2>
+									<ul class="no-bullet">
+                                                                            <p><li><a href="#">Home</a></li></p>
+                                                                            <p><li><a href="#">About us</a></li></p>
+                                                                            <p><li><a href="#">Contact Us</a></li></p>
+                                                                            <p><li><a href="#">News & Events</a></li></p>
+                                                                            <p><li><a href="#">Awards</a></li></p>
+                                                                            <p><li><a href="#">Certificates</a></li></p>
+                                                                            <p><li><a href="#">Contact us</a></li></p>
+									</ul>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-3">
+								<div class="widget">
+									<h3 class="widget-title">Our Brands</h3>
+									<ul class="no-bullet">
+                                                                            <p><li><a href="#">Cruze RO System</a></li></p>
+                                                                            <p><li><a href="#">Lexpure</a></li></p>
+                                                                            <p><li><a href="#">LCM Industrial</a></li></p>
+                                                                        </ul>
+								</div>
+							</div>
+<!--							<div class="col-xs-12 col-sm-4 col-md-2">
+								<div class="widget">
+									<h3 class="widget-title">Our Solutions</h3>
+									<ul class="no-bullet">
+										<li><a href="#">Presentation</a></li>
+										<li><a href="#">Testimonials</a></li>
+										<li><a href="#">Examples</a></li>
+										<li><a href="#">Our experts</a></li>
+										<li><a href="#">Resources</a></li>
+									</ul>
+								</div>
+							</div>-->
+							<div class="col-xs-12 col-sm-4 col-md-3">
+								<div class="widget">
+									<h3 class="widget-title">Press Room</h3>
+									<ul class="no-bullet">
+                                                                            <p><li><a href="#">Gallery</a></li></p>
+                                                                            <p><li><a href="#">Testimonials</a></li></p>
+									</ul>
+								</div>
+							</div>
+<!--							<div class="col-xs-12 col-sm-4 col-md-2">
+								<div class="widget">
+									<h3 class="widget-title">Resources</h3>
+									<ul class="no-bullet">
+										<li><a href="#">Sed imperdiet magna</a></li>
+										<li><a href="#">Pellentesque molestie</a></li>
+										<li><a href="#">Nulla luctus cursus</a></li>
+										<li><a href="#">Ligula vel lacinia</a></li>
+										<li><a href="#">Mauris scelerisque</a></li>
+									</ul>
+								</div>
+							</div>-->
+						</div>
+					</div>
+				</div>
+
+				<div class="bottom-footer">
+					<div class="container">
+<!--						<nav class="footer-navigation">
+							<a href="#">Home</a>
+							<a href="#">About us</a>
+							<a href="#">Insurance plans</a>
+							<a href="#">Resources</a>
+							<a href="#">Contact</a>
+						</nav>-->
+
+                                            <div class="colophon" style="float:right;">&COPY; 2017 Lexcru Water Tech Pvt.Ltd. | All right reserved | Designed by &nbsp;&nbsp;&nbsp;
+                                                <img src="images/intellilogo.png"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+<!--		<script src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>-->
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		
+	</body>
+
+</html>
